@@ -7,6 +7,7 @@
 ##### e-mail: 	 sldetlersl@gmail.com
 ##### github: 	 [@sldetlersl](https://github.com/sldetlersl)
 ##### vk: 	     [@detler](https://vk.com/detler)
+##### Discord: 	 DETLER(@DETLER)
 ## Summary
  
 #### I'm interested in programming when I met my new friend which showed me Front-end. 
@@ -30,6 +31,8 @@
 #### I was self-taught. 
 
 ## Education
+
   * 2011-2015 Medical College of the Saratov State Medical University named after V.I.Razumovsky
 ## English 
+
 #### A2 (Pre-intermediate)
