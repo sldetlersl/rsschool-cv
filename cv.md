@@ -18,7 +18,9 @@
 
   * ##### HTML5
   * ##### CSS3
+  * ##### BEM
   * ##### Basic JS
+  * ##### Basic jQuery
   * ##### Git
   * ##### Bootstrap
   * ##### Scss/Sass
