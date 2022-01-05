@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <nav class="header__navigation">
+                <ul class="header__items">
+                    <li class="header__item">
+                        <a href="#main__summary" class="header__link">Summary</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#main__skills" class="header__link">Skills</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#main__experience" class="header__link">Experience</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#main__education" class="header__link">Education</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#main__contacts" class="header__link">Contacts</a>
+                    </li>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__wrapeper">
+            <section class="main__container">
+                <h1 class="main-title">Hello World, my names is Maxim Oreshkin</h1>
+                <img class="main-image" src="./image/photo.jpg" alt="photo">
+            </section>
+            <section class="main__summary" id="main__summary">
+                <h2 class="main-subtitle">Summary</h2>
+                <p class="main-description">    I’m interested in programming when I met my new friend which showed me Front-end.</p>
+                <p class="main-description">  I’m started codind since 2020.</p>
+                <p class="main-description">  I fell in love with process of coding and enjoed my results.</p>
+                <p class="main-description">  I have a big goal to tie my life with development.</p>
+            </section>
+            <section class="main__skills" id="main__skills">
+                <h2 class="main-subtitle">Skills</h2>
+                <ul class="main-list">
+                    <li class="main-item">HTML5</li>
+                    <li class="main-item">CSS3</li>
+                    <li class="main-item">BEM</li>
+                    <li class="main-item">Basic JS</li>
+                    <li class="main-item">Basic jQuery</li>
+                    <li class="main-item">Git</li>
+                    <li class="main-item">Bootstrap</li>
+                    <li class="main-item">Scss/Sass</li>
+                    <li class="main-item">Webpack</li>
+                    <li class="main-item">VS Code</li>
+                </ul>
+            </section>
+            <section class="main__experience" id="main__experience">
+                <h2 class="main-subtitle">Experience</h2>
+                <p class="main-description">At the moment I am in charge of two websites (<a class="main-link" href="http://www.kapriz-keramik.ru/"> a ceramic tile store</a> and <a class="main-link" href="https://agrodrive.ru/"> a website of an agricultural machinery sales company</a>). Also worked with CMS Wordpress. I was self-taught.</p>
+                <pre class="main-code" >
+    $(document).ready(function(){
+        $('.main__slider').slick({
+            dots:true,
+        });
+        $('.clients__slider').slick({
+            dots:true,
+        });
+        $('.reviews__slider').slick({
+            dots:true,
+        });
+    }); </pre>
+            </section>
+            <section class="main__education" id="main__education">
+                <h2 class="main-subtitle">Education</h2>
+                <p class="main-description">2011-2015 Medical College of the Saratov State Medical University named after V.I.Razumovsky</p>
+                <p class="main-description">English: A2 (Pre-intermediate)</p>
+            </section>
+            <section class="main__contacts" id="main__contacts">
+                <h2 class="main-subtitle">Contacts</h2>
+                <ul class="main-list">
+                    <li class="main-item">
+                        <a class="main-link" href="tel:+79869932519">tel: +79869932519</a>
+                    </li>
+                    <li class="main-item">
+                        <a class="main-link" href="https://telegram.me/MaximOreshkin">telegram: @MaximOreshkin</a> 
+                    </li>
+                    <li class="main-item">
+                        <a class="main-link" href="mailto:sldetlersl@gmail.com">e-mail: sldetlersl@gmail.com</a>
+                    </li>
+                    <li class="main-item">
+                        <a class="main-link" href="https://github.com/sldetlersl">github: @sldetlersl</a>
+                    </li>
+                    <li class="main-item">
+                        <a class="main-link" href="https://vk.com/detler">vk: @detler</a>
+                        </li>
+                    <li class="main-item">
+                        <a class="main-link" href="https://discordapp.com/users/DETLER#3028/">Discord: DETLER(@DETLER)</a>
+                    </li>
+                <ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__content">
+                <a class="footer__github" href="https://github.com/sldetlersl">My GitHub</a>
+                <p class="footer__text">2022</p>
+            </div>
+            <div class="footer__logo">
+                <a href="https://rs.school/js/">
+                    <img src="./image/rs_school_js.svg" alt="logo">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
